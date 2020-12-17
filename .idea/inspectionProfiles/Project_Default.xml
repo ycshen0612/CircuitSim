@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="script.face_recognition.facenet" />
+          <option value="script.checkin_system.torchvision" />
+          <option value="script.checkin_system.facenet_pytorch" />
+          <option value="script.checkin_system.facenet" />
+          <option value="script.facenet.Facenet" />
+          <option value="tf" />
+          <option value="rospy" />
+          <option value="src.a_star.nav_msgs" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

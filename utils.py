@@ -1,5 +1,6 @@
 import math
 
+
 class Point(object):
     def __init__(self, x=None, y=None):
         self.x = x
@@ -11,9 +12,13 @@ class Point(object):
     def reset(self, x=None, y=None):
         if x is not None:
             self.x = x
+        else:
+            self.x = 0
 
         if y is not None:
             self.y = y
+        else:
+            self.y = 0
 
     def __str__(self):
         return "({}, {})".format(self.x, self.y)
@@ -23,6 +28,7 @@ class Point(object):
 
     def __sub__(self, other):
         return Point(x=self.x - other.x, y=self.y - other.y)
+
 
 class Complex(object):
     def __init__(self, real=None, imag=None):
